@@ -1,6 +1,6 @@
 import React from "react";
-import img1 from "../../assets/images/InvestorConnectLogoSVGSmall 1.png"
-import img2 from "../../assets/images/Logo1.png"
+import img1 from "../../images/InvestorConnectLogoSVGSmall 1.png"
+import img2 from "../../images/Logo1.png"
 
 function Top_Grant(){
     return(<>

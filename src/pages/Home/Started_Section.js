@@ -1,6 +1,6 @@
 import React from "react";
-import started_bg from "../../assets/images/div.elementor-element.png"
-import character from '../../assets/images/Character.png'
+import started_bg from "../../images/div.elementor-element.png"
+import character from '../../images/Character.png'
 
 
 function Started_Section(){

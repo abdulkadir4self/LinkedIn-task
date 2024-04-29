@@ -1,8 +1,8 @@
 import React from "react";
-import success_img0 from '../../assets/images/Rectangle 5.png'
-import success_img1 from '../../assets/images/Rectangle 5 (1).png'
-import success_img2 from '../../assets/images/Rectangle 5 (2).png'
-import success_bg from '../../assets/images/div.elementor-element.png'
+import success_img0 from '../../images/Rectangle 5.png'
+import success_img1 from '../../images/Rectangle 5 (1).png'
+import success_img2 from '../../images/Rectangle 5 (2).png'
+import success_bg from '../../images/div.elementor-element.png'
 
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

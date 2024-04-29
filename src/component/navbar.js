@@ -1,13 +1,16 @@
 import React, { useState } from "react";
-import logo from "../assets/images/LOgos.png";
-import avatar from "../assets/images/26.png";
+import logo from "../images/LOgos.png";
+// import avatar from "../images/26.png";
 import "./navbar.css";
+import { NavLink } from "react-router-dom";
 
+// write a backend logic for protected route. eg if user is login then user can see all routes.
+//  if not logged in user cant access these pages through url.
 function Navbar() {
   const [activeItem, setActiveItem] = useState(null);
 
   const handleItemClick = (index) => {
-    setActiveItem(index);
+    setActiveItem(index); //to add active class on clicked link.
   };
 
   return (
@@ -36,54 +39,56 @@ function Navbar() {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ml-auto ">
+          <ul class="navbar-nav ml-auto text-center">
             <li
-              class={`nav-item ${activeItem === 0 ? "active" : ""}`}
+              class={`nav-item ${activeItem === 0 ? "active" : ""}  mt-1`}
               onClick={() => handleItemClick(0)}
             >
-              <a class="nav-link text-light" href="#">
+              <NavLink to='/' class="nav-link text-light" id="navlink" href="#">
                 Home
-              </a>
+              </NavLink>
             </li>
+            {/* gave single id to all elements because the class was not working. i couldn't check why
+            due to shortage of time */}
             <li
-              class={`nav-item ${activeItem === 1 ? "active" : ""}`}
+              class={`nav-item ${activeItem === 1 ? "active" : ""} mt-1`}
               onClick={() => handleItemClick(1)}
             >
-              <a class="nav-link text-light" href="#">
+              <NavLink to='/grants' class="nav-link text-light" id="navlink"  href="#">
                 Grants
-              </a>
+              </NavLink>
             </li>
             <li
-              class={`nav-item ${activeItem === 2 ? "active" : ""}`}
+              class={`nav-item ${activeItem === 2 ? "active" : ""} mt-1`}
               onClick={() => handleItemClick(2)}
             >
-              <a class="nav-link text-light" href="#">
+              <NavLink to='/resources' class="nav-link text-light " id="navlink"  href="#">
                 Resources
-              </a>
+              </NavLink>
             </li>
             <li
-              class={`nav-item ${activeItem === 3 ? "active" : ""}`}
+              class={`nav-item ${activeItem === 3 ? "active" : ""} mt-1`}
               onClick={() => handleItemClick(3)}
             >
-              <a class="nav-link text-light" href="#">
+              <NavLink to='' class="nav-link text-light" id="navlink"  href="#">
                 Start-Up Story
-              </a>
+              </NavLink>
             </li>
             <li
-              class={`nav-item ${activeItem === 4 ? "active" : ""}`}
+              class={`nav-item ${activeItem === 4 ? "active" : ""} mt-1`}
               onClick={() => handleItemClick(4)}
             >
-              <a class="nav-link text-light" href="#">
+              <NavLink to='' class="nav-link text-light" id="navlink"  href="#">
                 Blog
-              </a>
+              </NavLink>
             </li>
-            <li>
-              <img
-                src={avatar}
-                width="35"
-                height="35"
-                class="d-inline-block align-top mt-3 ml-1"
-              />
+            <li
+              class={`nav-item ${activeItem === 5 ? "active" : ""} mt-1`}
+              onClick={() => handleItemClick(4)}
+            >
+              <NavLink to='' class="nav-link " id="liBtn"  href="#">
+                Login
+              </NavLink>
             </li>
           </ul>
         </div>

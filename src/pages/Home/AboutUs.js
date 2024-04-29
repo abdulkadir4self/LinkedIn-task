@@ -1,5 +1,5 @@
 import React from "react";
-import roundImg from '../../assets/images/Ellipse 23.png'
+import roundImg from '../../images/Ellipse 23.png'
 
 
 

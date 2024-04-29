@@ -1,0 +1,297 @@
+.grantParent {
+  background-color: black;
+  color: white;
+}
+.grantChild2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.grantChild1 h1 {
+  background: linear-gradient(to right, #b47cfd, #ff7fc2);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  text-align: left;
+  font-weight: 600;
+}
+/* Mobile Phones (Portrait) */
+@media only screen and (max-width: 480px) {
+  .grantChild1 h1 {
+    font-size: 1.5rem;
+    text-align: left;
+    padding: 1rem;
+  }
+}
+
+/* Mobile Phones (Landscape) */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .grantChild1 h1 {
+    font-size: 2rem;
+    text-align: left;
+    padding: 1rem;
+  }
+}
+
+/* Tablets (Portrait) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .grantChild1 h1 {
+    font-size: 2.5rem;
+    text-align: left;
+    padding: 2rem;
+    margin-top: 2rem;
+  }
+  .grantChild2 {
+    padding: 2rem 0;
+  }
+}
+
+/* Tablets (Landscape) */
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+  .grantChild1 h1 {
+    /* font-size: 2.5rem; */
+    text-align: left;
+    padding: 2rem;
+    margin-top: 4rem;
+  }
+  .grantChild2 {
+    padding: 2rem 0;
+  }
+}
+
+/* Small Laptops and Desktops */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .grantChild1 h1 {
+    /* font-size: 2.5rem; */
+    text-align: left;
+    padding: 2rem;
+    margin-top: 6rem;
+  }
+  .grantChild2 {
+    padding: 2rem 0;
+  }
+}
+
+/* Medium to Large Desktops */
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .grantChild1 h1 {
+    /* font-size: 2.5rem; */
+    text-align: left;
+    padding: 2rem;
+    margin-top: 8rem;
+  }
+  .grantChild2 {
+    padding: 2rem 0;
+  }
+}
+
+/* Large Desktops and TVs */
+@media only screen and (min-width: 1440px) {
+  .grantChild1 h1 {
+    /* font-size: 2.5rem; */
+    text-align: left;
+    padding: 2rem;
+    margin-top: 10rem;
+  }
+  .grantChild2 {
+    padding: 2rem 0;
+  }
+}
+
+/* articles section starts here */
+.articlesParent {
+  background-color: black;
+  display: flex;
+  /* flex-direction: column; */
+}
+.articlesBtn {
+  background-color: #ffffff1c;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  /* width: 200px; */
+  border-radius: 10px;
+  width: fit-content;
+}
+.articlesBtn button {
+  border-radius: 25px;
+  /* background-color: #323443; */
+  color: white;
+  padding: 5px 10px;
+  margin: 5px 15px;
+  background: rgba(180, 124, 253, 0.26);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.1px);
+  -webkit-backdrop-filter: blur(2.1px);
+  border: 1px solid rgba(180, 124, 253, 1);
+}
+.article {
+  border-radius: 25px;
+  /* background-color: #323443; */
+  color: white;
+  padding: 5px 10px;
+  margin: 5px 15px;
+  background: rgba(180, 124, 253, 0.26);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.1px);
+  -webkit-backdrop-filter: blur(2.1px);
+  border: 1px solid rgba(180, 124, 253, 1);
+  display: flex;
+}
+.articleImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.articleContent {
+  text-align: left;
+  padding-left: 1rem;
+}
+.articleContent h3 {
+  background: linear-gradient(to right, #b47cfd, #ff7fc2);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: 600;
+}
+.articleContent p:nth-child(3) {
+  border: 1px solid rgba(180, 124, 253, 1);
+  border-radius: 25px;
+  width: fit-content;
+  padding: 5px 10px;
+}
+.articleContent button {
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: white;
+  background: linear-gradient(to right, #b47cfd, #ff7fc2);
+  border: none;
+}
+/* Mobile Phones (Portrait) */
+@media only screen and (max-width: 480px) {
+  .articlesParent {
+    display: block;
+  }
+  .articlesBtn {
+    width: 100%;
+  }
+  .article {
+    display: flex;
+    flex-direction: column;
+  }
+  .articleContent {
+    padding: 0.5rem;
+  }
+  .articleContent h3 {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+  }
+
+}
+
+/* Mobile Phones (Landscape) */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  .articlesParent {
+    display: block;
+  }
+  .articlesBtn {
+    width: 100%;
+  }
+  .article {
+    display: flex;
+    flex-direction: column;
+  }
+  .articleContent {
+    padding: 0.5rem;
+  }
+  .articleContent h3 {
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+  }
+}
+
+/* Tablets (Portrait) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .articlesBtn {
+    margin-left: .7rem;
+  }
+  .article {
+    display: flex;
+    flex-direction: column;
+  }
+  .articlesBtn {
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    justify-content: flex-start;
+    /* width: 100%; */
+    height: fit-content;
+    padding: 1.5rem 0;
+  }
+}
+
+/* Tablets (Landscape) */
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+  .articlesBtn {
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+  .article {
+    margin-top: 2rem;
+    margin-right: 2rem;
+
+  }
+  .articleContent {
+    padding: 1rem;
+  }
+}
+
+/* Small Laptops and Desktops */
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .articlesBtn {
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+  }
+  .article {
+    margin-top: 2.5rem;
+    margin-right: 2.5rem;
+  }
+  .articleContent {
+   padding: 1rem;
+    
+  }
+}
+
+/* Medium to Large Desktops */
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .articlesBtn {
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+  }
+  .article {
+    margin-top: 2.5rem;
+    margin-right: 2.5rem;
+
+  }
+  .articleContent {
+    padding: 1rem;  
+   }
+}
+
+/* Large Desktops and TVs */
+@media only screen and (min-width: 1440px) {
+  .articlesBtn {
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+  }
+  .article {
+    margin-top: 2.5rem;
+    margin-right: 2.5rem;
+
+  }
+  .articleContent {
+    padding: 1rem;  
+   }
+}

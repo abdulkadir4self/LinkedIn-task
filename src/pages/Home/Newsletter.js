@@ -1,5 +1,5 @@
 import React from "react";
-import envelop from '../../assets/images/envelope-open-text-solid.svg'
+import envelop from '../../images/envelope-open-text-solid.svg'
 
 
 function Newsletter(){
