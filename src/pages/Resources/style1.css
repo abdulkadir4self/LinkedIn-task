@@ -1,5 +1,5 @@
 .resourceParent {
-  background-color: black;
+  background-image: linear-gradient(to right bottom, #07060f, #07060f, #07060f, #07060f, #07060f, #110f20, #151530, #1a1a41, #282369, #3c2b91, #582eb9, #7a2ce1);
   color: white;
 }
 .resourceChild2 img {
@@ -99,7 +99,7 @@
 
 /* articles section starts here */
 .categoryParent {
-  background-color: black;
+  background-image: linear-gradient(to right top, #07060f, #07060f, #07060f, #07060f, #07060f, #110f20, #151530, #1a1a41, #282369, #3c2b91, #582eb9, #7a2ce1);
   display: flex;
   /* flex-direction: column; */
 }
@@ -161,6 +161,10 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   font-weight: 600;
+}
+.categoryContent p{
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #F0F0F0;
 }
 /* .articleContent p:nth-child(3) {
   border: 1px solid rgba(180, 124, 253, 1);

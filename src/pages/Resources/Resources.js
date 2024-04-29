@@ -60,7 +60,7 @@ function Resources(){
 
                            <div className="categoryContent">
                               {/* dynamic content goes here */}
-                              <h3>Financial</h3>
+                              <h3>Design System</h3>
                               <p>Four Ways a Clean Workplace Makes Employees Happy and Healthy
                               </p>
 
@@ -75,7 +75,7 @@ function Resources(){
 
                            <div className="categoryContent">
                               {/* dynamic content goes here */}
-                              <h3>Financial</h3>
+                              <h3>Economics</h3>
                               <p>Four Ways a Clean Workplace Makes Employees Happy and Healthy
                               </p>
 
